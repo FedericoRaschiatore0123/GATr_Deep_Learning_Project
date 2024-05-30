@@ -1,26 +1,25 @@
 # GATr
 
-This repository contain our Deep Learning project involving Geometric Algebra Transformer
+This repository contains our Deep Learning project involving Geometric Algebra Transformer
 
-The repository contain:
+The repository contains:
 - the dataset splitted in bifurcating and single
 - a repository containing some data that are useful for the computation
 - " dataset_preparation.ipynb " a script used for the dataset preparation
-- " GATr_deep_learning_project.ipynb " that is the main code of the project
+- " GATr_deep_learning_project.ipynb " the main code of the project
 
 # Abstract
 
-Deep learning has been effectively applied to a variety of tasks across numerous disciplines. This success is
-attributed to the ability of deep learning models to encode spatial, temporal, and other essential features that
-define the data. However, the learning process is computationally and time-intensive. Integrating mathematical
-tools suitable for each specific task can significantly optimize the learning process. When dealing with geometric
-data, while traditional vector algebra is effective for a wide range of tasks and works with various types of data,
-there are instances where it is beneficial to work within a mathematical framework that is specifically designed
-to handle geometric data and perform geometric operations in a concise and efficient manner. Geometric algebra
-meets the need for concise formulation and rich spatial information while maintaining a highly interpretable
-geometric meaning. In this paper, the expressive power of geometric algebra is used to design a transformer
-(GATr) to address a classification task of medical interest. The results of the model are compared against two
-other architectures: a standard transformer and a simple MLP network.
+Deep learning has been effectively applied to a wide range of tasks in various fields. This success is due to
+deep learning models’ ability to capture spatial, temporal, and other important features of the data. However,
+the learning process can be computationally intensive and time-consuming. By integrating mathematical tools
+tailored to specific tasks, we can significantly improve the learning process. While traditional vector algebra
+is effective for many tasks and data types, there are cases where using a mathematical framework designed
+specifically for geometric data can be advantageous. Geometric algebra provides a concise and efficient way
+to handle geometric data and perform geometric operations, while preserving rich spatial information and
+maintaining a clear geometric interpretation. In this paper, we use the expressive power of geometric algebra
+to develop a transformer (GATr) for a classification task of medical interest. We compare the model’s results
+with those of a standard transformer and a simple CNN network.
 
 <center>
 
@@ -30,7 +29,7 @@ other architectures: a standard transformer and a simple MLP network.
 
 # Dataset
 
-The dataset is in this repository splitted in "bifurcating" and "single". We decided to load it on github because
+The dataset in this repository is splitted in "bifurcating" and "single". We decided to load it on github because
 the splitting operation is very computational expensive. For this reason we realized a script called " dataset_preparation.ipynb "
 that starting from the original dataset in .hdf5 format, extract the data, split in the corrisponding class and load them on github
 in the corresponding directory.
@@ -39,10 +38,10 @@ The original dataset is available at the following link: https://drive.google.co
 # Structure
 
 The project is structured in the following way:
-- **bifurcating**: contain all the samples associated with the bifurcating label
-- **single contain**: all the sample associated with the single label
-- **data**: contain data that are useful for the computations inside the code ( e.g. geometric_product.pt and outer_product.pt )
-- **GATr_deep_learning_project.ipynb**: is the main code where we implemented geometric algebra and the GATr itself
+- **bifurcating**: it contains all the samples associated with the bifurcating label
+- **single**: it contains all the sample associated with the single label
+- **data**: it contains extra data that are useful for the computations inside the code ( e.g. geometric_product.pt and outer_product.pt )
+- **GATr_deep_learning_project.ipynb**: it is the main code where we implemented geometric algebra and the GATr itself
 - **dataset_preparation.ipynb**: is a script used for the dataset preparation
 
 # Authors
