@@ -8,7 +8,7 @@ The repository contain:
 - $ dataset_preparation.ipynb $ a script used for the dataset preparation
 - $ GATr_deep_learning_project.ipynb $ that is the main code of the project
 
-#Abstract
+# Abstract
 
 Deep learning has been effectively applied to a variety of tasks across numerous disciplines. This success is
 attributed to the ability of deep learning models to encode spatial, temporal, and other essential features that
@@ -22,7 +22,13 @@ geometric meaning. In this paper, the expressive power of geometric algebra is u
 (GATr) to address a classification task of medical interest. The results of the model are compared against two
 other architectures: a standard transformer and a simple MLP network.
 
-#Dataset
+<center>
+
+![Baseline](https://media.licdn.com/dms/image/D4D22AQGX9zX1vw6QIQ/feedshare-shrink_800/0/1693985295396?e=2147483647&v=beta&t=koYJ91QwdwtqrDytXvepUhck7BrkJDU-f-aGpjiywTc)
+
+</center>
+
+# Dataset
 
 The dataset is in this repository splitted in "bifurcating" and "single". We decided to load it on github because
 the splitting operation is very computational expensive. For this reason we realized a script called $ dataset_preparation.ipynb $
@@ -30,12 +36,12 @@ that starting from the original dataset in .hdf5 format, extract the data, split
 in the corresponding directory.
 The original dataset is available at the following link: https://drive.google.com/drive/folders/12Xp6-lqBRi0gCIA7iaDIC1JHUT7odxPR?usp=sharing
 
-#Authors
+# Authors
 
 - Paola Carboni ( https://github.com/paolacarboni ) 
 - Federico Raschiatore ( https://github.com/FedericoRaschiatore0123 )
 
-#References
+# References
 
 [1] Geometric Algebra Transformer 2023 ( by Johann Brehmer Pim de Haan Sönke Behrends Taco Cohen )
 
