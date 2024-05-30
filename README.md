@@ -5,8 +5,8 @@ This repository contain our Deep Learning project involving Geometric Algebra Tr
 The repository contain:
 - the dataset splitted in bifurcating and single
 - a repository containing some data that are useful for the computation
-- $ dataset_preparation.ipynb $ a script used for the dataset preparation
-- $ GATr_deep_learning_project.ipynb $ that is the main code of the project
+- " dataset_preparation.ipynb " a script used for the dataset preparation
+- " GATr_deep_learning_project.ipynb " that is the main code of the project
 
 # Abstract
 
@@ -31,7 +31,7 @@ other architectures: a standard transformer and a simple MLP network.
 # Dataset
 
 The dataset is in this repository splitted in "bifurcating" and "single". We decided to load it on github because
-the splitting operation is very computational expensive. For this reason we realized a script called $ dataset_preparation.ipynb $
+the splitting operation is very computational expensive. For this reason we realized a script called " dataset_preparation.ipynb "
 that starting from the original dataset in .hdf5 format, extract the data, split in the corrisponding class and load them on github
 in the corresponding directory.
 The original dataset is available at the following link: https://drive.google.com/drive/folders/12Xp6-lqBRi0gCIA7iaDIC1JHUT7odxPR?usp=sharing
