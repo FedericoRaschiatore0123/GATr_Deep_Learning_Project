@@ -24,7 +24,7 @@ other architectures: a standard transformer and a simple MLP network.
 
 <center>
 
-![Baseline]([https://media.licdn.com/dms/image/D4D22AQGX9zX1vw6QIQ/feedshare-shrink_800/0/1693985295396?e=2147483647&v=beta&t=koYJ91QwdwtqrDytXvepUhck7BrkJDU-f-aGpjiywTc](https://pbs.twimg.com/media/F5Pz1o3XMAAppyS.jpg))
+![Baseline](https://pbs.twimg.com/media/F5Pz1o3XMAAppyS.jpg)
 
 </center>
 
