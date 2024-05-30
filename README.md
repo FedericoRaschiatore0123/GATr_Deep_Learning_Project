@@ -39,7 +39,7 @@ The original dataset is available at the following link: https://drive.google.co
 # Structure
 
 The project is structured in the following way:
-- **bifurcating **: contain all the samples associated with the bifurcating label
+- ** bifurcating **: contain all the samples associated with the bifurcating label
 - **single contain ** all the sample associated with the single label
 - **data contain data ** that are useful for the computations inside the code ( e.g. geometric_product.pt and outer_product.pt )
 - **GATr_deep_learning_project.ipynb ** is the main code where we implemented geometric algebra and the GATr itself
